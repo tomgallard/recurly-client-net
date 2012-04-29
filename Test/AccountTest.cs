@@ -2,21 +2,22 @@
 using System.Collections.Generic;
 using System.Text;
 using Recurly;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 
 namespace Recurly.Test
 {
-    [TestFixture]
+    [TestClass]
     public class AccountTest
     {
-        [Test]
+        [TestMethod]
         public void CreateAccount()
         {
             RecurlyAccount acct = Factories.NewAccount("Create Account");
             acct.Create();
         }
 
-        [Test]
+        [TestMethod]
         public void LookupAccount()
         {
             RecurlyAccount newAcct = Factories.NewAccount("Lookup Account");
@@ -25,17 +26,17 @@ namespace Recurly.Test
             RecurlyAccount acct = RecurlyAccount.Get(newAcct.AccountCode);
             Assert.IsNotNull(acct);
             Assert.AreEqual(acct.AccountCode, newAcct.AccountCode);
-            Assert.IsNotNullOrEmpty(acct.Email);
+            Assert.IsTrue(!String.IsNullOrEmpty(acct.Email));
         }
 
-        [Test]
+        [TestMethod]
         [ExpectedException(typeof(NotFoundException))]
         public void FindNonExistantAccount()
         {
             RecurlyAccount acct = RecurlyAccount.Get("totallynotfound!@#$");
         }
 
-        [Test]
+        [TestMethod]
         public void UpdateAccount()
         {
             RecurlyAccount acct = Factories.NewAccount("Update Account");
@@ -48,7 +49,7 @@ namespace Recurly.Test
             Assert.AreEqual(acct.LastName, getAcct.LastName);
         }
 
-        [Test]
+        [TestMethod]
         public void CloseAccount()
         {
             RecurlyAccount acct = Factories.NewAccount("Close Account");

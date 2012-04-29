@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 using Recurly;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Recurly.Test
 {
-    [TestFixture]
+    [TestClass]
     public class BillingInfoTest
     {
-        [Test]
+        [TestMethod]
         public void UpdateBillingInfo()
         {
             RecurlyAccount acct = Factories.NewAccount("Update Billing Info");
@@ -19,7 +19,7 @@ namespace Recurly.Test
             billingInfo.Update();
         }
 
-        [Test]
+        [TestMethod]
         public void LookupBillingInfo()
         {
             RecurlyAccount newAcct = Factories.NewAccount("Lookup Billing Info");
@@ -31,10 +31,10 @@ namespace Recurly.Test
             RecurlyBillingInfo lookupBilling = RecurlyBillingInfo.Get(newAcct.AccountCode);
             Assert.AreEqual(billingInfo.Address1, lookupBilling.Address1);
             Assert.AreEqual(billingInfo.PostalCode, lookupBilling.PostalCode);
-            Assert.IsNotNullOrEmpty(billingInfo.CreditCard.CreditCardType);
+            Assert.IsTrue(!String.IsNullOrEmpty(billingInfo.CreditCard.CreditCardType));
         }
 
-        [Test]
+        [TestMethod]
         public void LookupMissingInfo()
         {
             RecurlyAccount newAcct = Factories.NewAccount("Lookup Missing Billing Info");
@@ -44,7 +44,7 @@ namespace Recurly.Test
             Assert.IsNull(billingInfo);
         }
 
-        [Test]
+        [TestMethod]
         public void ClearBillingInfo()
         {
             RecurlyAccount newAcct = Factories.NewAccount("Clear Billing Info");
@@ -56,7 +56,7 @@ namespace Recurly.Test
             billingInfo.ClearBillingInfo();
         }
 
-        [Test]
+        [TestMethod]
         public void CloseAccount()
         {
             RecurlyAccount acct = Factories.NewAccount("Close Account");

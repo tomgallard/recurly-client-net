@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cd9cc2f8-d032-4d1b-afed-09e76a62829f" name="Tom@HAL 2012-04-29 10:04:13" runUser="Hal\Tom" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="feab0091-aeb5-4294-8a78-86a43346a953">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Tom_HAL 2012-04-29 10_04_13">
+      <DeploymentItem filename="C:\dev\recurly-client-net\Library\bin\Debug\Recurly.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-29T10:04:13.7069771+01:00" queuing="2012-04-29T10:04:13.7509796+01:00" start="2012-04-29T10:04:13.7819814+01:00" finish="2012-04-29T10:04:22.9133815+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" error="0" failed="11" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LookupMissingInfo" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="dccb6676-35d0-8168-53a2-74eabb0b5bb4">
+      <Execution id="73cb0153-270d-4ceb-891a-acc9f8f0a113" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.BillingInfoTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LookupMissingInfo" />
+    </UnitTest>
+    <UnitTest name="CreateCharge" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="79fb443b-d487-1a28-6d30-ee3ce4148245">
+      <Execution id="2c55ced9-95bb-4263-8a41-cfebc55948a8" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.ChargeTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateCharge" />
+    </UnitTest>
+    <UnitTest name="LookupBillingInfo" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="d019bb13-703c-670e-55fa-9f242541f50d">
+      <Execution id="65f4a643-01cd-47a2-90d4-b2e6102f8563" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.BillingInfoTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LookupBillingInfo" />
+    </UnitTest>
+    <UnitTest name="UpdateAccount" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="5f478640-42ae-5fec-26d8-f773afb4102b">
+      <Execution id="3f01aa62-a4b0-4788-a477-9391a020cbf5" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.AccountTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateAccount" />
+    </UnitTest>
+    <UnitTest name="ClearBillingInfo" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="a6307c88-6880-eff7-6b98-8cec0f77ea74">
+      <Execution id="2f383b17-6129-4161-a8f6-acd55a51719e" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.BillingInfoTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ClearBillingInfo" />
+    </UnitTest>
+    <UnitTest name="CloseAccount" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="839b8906-fa97-3e4a-912c-81ae53cc31d4">
+      <Execution id="599e349b-8e81-4d56-8c6d-b0c7b1c2641f" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.AccountTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CloseAccount" />
+    </UnitTest>
+    <UnitTest name="FindNonExistantAccount" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="e3e106a3-a7e5-0d52-b37f-86781792e573">
+      <Execution id="44a109cd-86e1-432a-9493-95a6f62a9a51" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.AccountTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindNonExistantAccount" />
+    </UnitTest>
+    <UnitTest name="UpdateBillingInfo" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="9e6ebedd-09f9-25f9-315f-752d97126c08">
+      <Execution id="504d348b-9d91-43d6-9893-19280314c1e4" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.BillingInfoTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateBillingInfo" />
+    </UnitTest>
+    <UnitTest name="CreateAccount" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="00fdf40d-2a23-a5f4-85a5-3841337d8c48">
+      <Execution id="ac8b14b1-8b4b-46ac-ad30-7f6471db773c" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.AccountTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateAccount" />
+    </UnitTest>
+    <UnitTest name="LookupAccount" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="cbafa9f1-e281-0f55-769d-8ce4bf7d8553">
+      <Execution id="b4d42e31-c94c-47ed-86d1-9ab80a1119ae" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.AccountTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LookupAccount" />
+    </UnitTest>
+    <UnitTest name="CloseAccount" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="e4eb6404-fb29-be97-1070-b69e8b647ace">
+      <Execution id="e0a74ab0-ed75-4a23-a04f-18d5191d727b" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.BillingInfoTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CloseAccount" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="00fdf40d-2a23-a5f4-85a5-3841337d8c48" executionId="ac8b14b1-8b4b-46ac-ad30-7f6471db773c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f478640-42ae-5fec-26d8-f773afb4102b" executionId="3f01aa62-a4b0-4788-a477-9391a020cbf5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79fb443b-d487-1a28-6d30-ee3ce4148245" executionId="2c55ced9-95bb-4263-8a41-cfebc55948a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="839b8906-fa97-3e4a-912c-81ae53cc31d4" executionId="599e349b-8e81-4d56-8c6d-b0c7b1c2641f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e6ebedd-09f9-25f9-315f-752d97126c08" executionId="504d348b-9d91-43d6-9893-19280314c1e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6307c88-6880-eff7-6b98-8cec0f77ea74" executionId="2f383b17-6129-4161-a8f6-acd55a51719e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbafa9f1-e281-0f55-769d-8ce4bf7d8553" executionId="b4d42e31-c94c-47ed-86d1-9ab80a1119ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d019bb13-703c-670e-55fa-9f242541f50d" executionId="65f4a643-01cd-47a2-90d4-b2e6102f8563" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dccb6676-35d0-8168-53a2-74eabb0b5bb4" executionId="73cb0153-270d-4ceb-891a-acc9f8f0a113" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3e106a3-a7e5-0d52-b37f-86781792e573" executionId="44a109cd-86e1-432a-9493-95a6f62a9a51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4eb6404-fb29-be97-1070-b69e8b647ace" executionId="e0a74ab0-ed75-4a23-a04f-18d5191d727b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ac8b14b1-8b4b-46ac-ad30-7f6471db773c" testId="00fdf40d-2a23-a5f4-85a5-3841337d8c48" testName="CreateAccount" computerName="HAL" duration="00:00:01.5710545" startTime="2012-04-29T10:04:13.8609859+01:00" endTime="2012-04-29T10:04:15.6400681+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac8b14b1-8b4b-46ac-ad30-7f6471db773c">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+Recurly Library Received: 401 - Unauthorized
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Recurly.Test.AccountTest.CreateAccount threw exception: 
+Recurly.InvalidCredentialsException: The API credentials for Recurly are invalid. Please check the credentials and try again.</Message>
+          <StackTrace>    at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate, ReadXmlDelegate readXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 185
+   at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 124
+   at Recurly.RecurlyAccount.Create() in C:\dev\recurly-client-net\Library\RecurlyAccount.cs:line 66
+   at Recurly.Test.AccountTest.CreateAccount() in C:\dev\recurly-client-net\Test\AccountTest.cs:line 17
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3f01aa62-a4b0-4788-a477-9391a020cbf5" testId="5f478640-42ae-5fec-26d8-f773afb4102b" testName="UpdateAccount" computerName="HAL" duration="00:00:00.7391082" startTime="2012-04-29T10:04:15.6510688+01:00" endTime="2012-04-29T10:04:16.3941113+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f01aa62-a4b0-4788-a477-9391a020cbf5">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+Recurly Library Received: 401 - Unauthorized
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Recurly.Test.AccountTest.UpdateAccount threw exception: 
+Recurly.InvalidCredentialsException: The API credentials for Recurly are invalid. Please check the credentials and try again.</Message>
+          <StackTrace>    at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate, ReadXmlDelegate readXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 185
+   at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 124
+   at Recurly.RecurlyAccount.Create() in C:\dev\recurly-client-net\Library\RecurlyAccount.cs:line 66
+   at Recurly.Test.AccountTest.UpdateAccount() in C:\dev\recurly-client-net\Test\AccountTest.cs:line 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2c55ced9-95bb-4263-8a41-cfebc55948a8" testId="79fb443b-d487-1a28-6d30-ee3ce4148245" testName="CreateCharge" computerName="HAL" duration="00:00:00.7346025" startTime="2012-04-29T10:04:16.3981115+01:00" endTime="2012-04-29T10:04:17.1391343+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c55ced9-95bb-4263-8a41-cfebc55948a8">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+Recurly Library Received: 401 - Unauthorized
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Recurly.Test.ChargeTest.CreateCharge threw exception: 
+Recurly.InvalidCredentialsException: The API credentials for Recurly are invalid. Please check the credentials and try again.</Message>
+          <StackTrace>    at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate, ReadXmlDelegate readXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 185
+   at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 124
+   at Recurly.RecurlyAccount.Create() in C:\dev\recurly-client-net\Library\RecurlyAccount.cs:line 66
+   at Recurly.Test.ChargeTest.CreateCharge() in C:\dev\recurly-client-net\Test\ChargeTest.cs:line 16
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="599e349b-8e81-4d56-8c6d-b0c7b1c2641f" testId="839b8906-fa97-3e4a-912c-81ae53cc31d4" testName="CloseAccount" computerName="HAL" duration="00:00:00.7298146" startTime="2012-04-29T10:04:17.1391343+01:00" endTime="2012-04-29T10:04:17.8811483+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="599e349b-8e81-4d56-8c6d-b0c7b1c2641f">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+Recurly Library Received: 401 - Unauthorized
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Recurly.Test.AccountTest.CloseAccount threw exception: 
+Recurly.InvalidCredentialsException: The API credentials for Recurly are invalid. Please check the credentials and try again.</Message>
+          <StackTrace>    at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate, ReadXmlDelegate readXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 185
+   at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 124
+   at Recurly.RecurlyAccount.Create() in C:\dev\recurly-client-net\Library\RecurlyAccount.cs:line 66
+   at Recurly.Test.AccountTest.CloseAccount() in C:\dev\recurly-client-net\Test\AccountTest.cs:line 56
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="504d348b-9d91-43d6-9893-19280314c1e4" testId="9e6ebedd-09f9-25f9-315f-752d97126c08" testName="UpdateBillingInfo" computerName="HAL" duration="00:00:00.7311412" startTime="2012-04-29T10:04:17.8871487+01:00" endTime="2012-04-29T10:04:18.6301912+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="504d348b-9d91-43d6-9893-19280314c1e4">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+Recurly Library Received: 401 - Unauthorized
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Recurly.Test.BillingInfoTest.UpdateBillingInfo threw exception: 
+Recurly.InvalidCredentialsException: The API credentials for Recurly are invalid. Please check the credentials and try again.</Message>
+          <StackTrace>    at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate, ReadXmlDelegate readXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 185
+   at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 124
+   at Recurly.RecurlyAccount.Create() in C:\dev\recurly-client-net\Library\RecurlyAccount.cs:line 66
+   at Recurly.Test.BillingInfoTest.UpdateBillingInfo() in C:\dev\recurly-client-net\Test\BillingInfoTest.cs:line 16
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f383b17-6129-4161-a8f6-acd55a51719e" testId="a6307c88-6880-eff7-6b98-8cec0f77ea74" testName="ClearBillingInfo" computerName="HAL" duration="00:00:00.7241279" startTime="2012-04-29T10:04:18.6351915+01:00" endTime="2012-04-29T10:04:19.3612012+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f383b17-6129-4161-a8f6-acd55a51719e">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+Recurly Library Received: 401 - Unauthorized
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Recurly.Test.BillingInfoTest.ClearBillingInfo threw exception: 
+Recurly.InvalidCredentialsException: The API credentials for Recurly are invalid. Please check the credentials and try again.</Message>
+          <StackTrace>    at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate, ReadXmlDelegate readXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 185
+   at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 124
+   at Recurly.RecurlyAccount.Create() in C:\dev\recurly-client-net\Library\RecurlyAccount.cs:line 66
+   at Recurly.Test.BillingInfoTest.ClearBillingInfo() in C:\dev\recurly-client-net\Test\BillingInfoTest.cs:line 51
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b4d42e31-c94c-47ed-86d1-9ab80a1119ae" testId="cbafa9f1-e281-0f55-769d-8ce4bf7d8553" testName="LookupAccount" computerName="HAL" duration="00:00:00.7293310" startTime="2012-04-29T10:04:19.3612012+01:00" endTime="2012-04-29T10:04:20.1102278+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b4d42e31-c94c-47ed-86d1-9ab80a1119ae">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+Recurly Library Received: 401 - Unauthorized
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Recurly.Test.AccountTest.LookupAccount threw exception: 
+Recurly.InvalidCredentialsException: The API credentials for Recurly are invalid. Please check the credentials and try again.</Message>
+          <StackTrace>    at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate, ReadXmlDelegate readXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 185
+   at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 124
+   at Recurly.RecurlyAccount.Create() in C:\dev\recurly-client-net\Library\RecurlyAccount.cs:line 66
+   at Recurly.Test.AccountTest.LookupAccount() in C:\dev\recurly-client-net\Test\AccountTest.cs:line 24
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="65f4a643-01cd-47a2-90d4-b2e6102f8563" testId="d019bb13-703c-670e-55fa-9f242541f50d" testName="LookupBillingInfo" computerName="HAL" duration="00:00:00.7195820" startTime="2012-04-29T10:04:20.1142281+01:00" endTime="2012-04-29T10:04:20.8392695+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65f4a643-01cd-47a2-90d4-b2e6102f8563">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+Recurly Library Received: 401 - Unauthorized
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Recurly.Test.BillingInfoTest.LookupBillingInfo threw exception: 
+Recurly.InvalidCredentialsException: The API credentials for Recurly are invalid. Please check the credentials and try again.</Message>
+          <StackTrace>    at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate, ReadXmlDelegate readXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 185
+   at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 124
+   at Recurly.RecurlyAccount.Create() in C:\dev\recurly-client-net\Library\RecurlyAccount.cs:line 66
+   at Recurly.Test.BillingInfoTest.LookupBillingInfo() in C:\dev\recurly-client-net\Test\BillingInfoTest.cs:line 26
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="73cb0153-270d-4ceb-891a-acc9f8f0a113" testId="dccb6676-35d0-8168-53a2-74eabb0b5bb4" testName="LookupMissingInfo" computerName="HAL" duration="00:00:00.8506565" startTime="2012-04-29T10:04:20.8462699+01:00" endTime="2012-04-29T10:04:21.7013188+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73cb0153-270d-4ceb-891a-acc9f8f0a113">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+Recurly Library Received: 401 - Unauthorized
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Recurly.Test.BillingInfoTest.LookupMissingInfo threw exception: 
+Recurly.InvalidCredentialsException: The API credentials for Recurly are invalid. Please check the credentials and try again.</Message>
+          <StackTrace>    at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate, ReadXmlDelegate readXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 185
+   at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 124
+   at Recurly.RecurlyAccount.Create() in C:\dev\recurly-client-net\Library\RecurlyAccount.cs:line 66
+   at Recurly.Test.BillingInfoTest.LookupMissingInfo() in C:\dev\recurly-client-net\Test\BillingInfoTest.cs:line 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="44a109cd-86e1-432a-9493-95a6f62a9a51" testId="e3e106a3-a7e5-0d52-b37f-86781792e573" testName="FindNonExistantAccount" computerName="HAL" duration="00:00:00.5768290" startTime="2012-04-29T10:04:21.7053191+01:00" endTime="2012-04-29T10:04:22.2853522+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44a109cd-86e1-432a-9493-95a6f62a9a51">
+      <Output>
+        <DebugTrace>Recurly: Requesting GET https://api.recurly.com/accounts/totallynotfound!@%23$
+Recurly Library Received: 401 - Unauthorized
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Recurly.Test.AccountTest.FindNonExistantAccount threw exception Recurly.InvalidCredentialsException, but exception Recurly.NotFoundException was expected. Exception message: Recurly.InvalidCredentialsException: The API credentials for Recurly are invalid. Please check the credentials and try again.</Message>
+          <StackTrace>    at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate, ReadXmlDelegate readXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 185
+   at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, ReadXmlDelegate readXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 118
+   at Recurly.RecurlyAccount.Get(String accountCode) in C:\dev\recurly-client-net\Library\RecurlyAccount.cs:line 51
+   at Recurly.Test.AccountTest.FindNonExistantAccount() in C:\dev\recurly-client-net\Test\AccountTest.cs:line 36
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e0a74ab0-ed75-4a23-a04f-18d5191d727b" testId="e4eb6404-fb29-be97-1070-b69e8b647ace" testName="CloseAccount" computerName="HAL" duration="00:00:00.5720634" startTime="2012-04-29T10:04:22.2923526+01:00" endTime="2012-04-29T10:04:22.8633814+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0a74ab0-ed75-4a23-a04f-18d5191d727b">
+      <Output>
+        <DebugTrace>Recurly: Requesting DELETE https://api.recurly.com/accounts/295-acct
+Recurly Library Received: 401 - Unauthorized
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Recurly.Test.BillingInfoTest.CloseAccount threw exception: 
+Recurly.InvalidCredentialsException: The API credentials for Recurly are invalid. Please check the credentials and try again.</Message>
+          <StackTrace>    at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath, WriteXmlDelegate writeXmlDelegate, ReadXmlDelegate readXmlDelegate) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 185
+   at Recurly.RecurlyClient.PerformRequest(HttpRequestMethod method, String urlPath) in C:\dev\recurly-client-net\Library\RecurlyClient.cs:line 112
+   at Recurly.RecurlyAccount.CloseAccount(String accountCode) in C:\dev\recurly-client-net\Library\RecurlyAccount.cs:line 97
+   at Recurly.RecurlyAccount.CloseAccount() in C:\dev\recurly-client-net\Library\RecurlyAccount.cs:line 87
+   at Recurly.Test.BillingInfoTest.CloseAccount() in C:\dev\recurly-client-net\Test\BillingInfoTest.cs:line 63
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

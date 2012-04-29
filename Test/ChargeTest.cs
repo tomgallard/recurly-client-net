@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 using Recurly;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Recurly.Test
 {
-    [TestFixture]
-    class ChargeTest
+    [TestClass]
+    public class ChargeTest
     {
-        [Test]
+        [TestMethod]
         public void CreateCharge()
         {
             RecurlyAccount acct = Factories.NewAccount("Create Charge");

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5d790acb-c12f-4e6c-9cf5-2d48ae47d457" name="Tom@HAL 2012-04-29 11:03:02" runUser="Hal\Tom" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="feab0091-aeb5-4294-8a78-86a43346a953">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Tom_HAL 2012-04-29 11_03_02">
+      <DeploymentItem filename="C:\dev\recurly-client-net\Library\bin\Debug\Recurly.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-29T11:03:02.9689436+01:00" queuing="2012-04-29T11:03:03.5809786+01:00" start="2012-04-29T11:03:03.6239810+01:00" finish="2012-04-29T11:03:11.6094378+01:00" />
+  <ResultSummary outcome="Aborted">
+    <Counters total="11" executed="4" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="3" notRunnable="0" notExecuted="7" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LookupMissingInfo" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="dccb6676-35d0-8168-53a2-74eabb0b5bb4">
+      <Execution id="0197e350-374d-4fa3-8603-a00906661d98" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.BillingInfoTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LookupMissingInfo" />
+    </UnitTest>
+    <UnitTest name="CreateCharge" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="79fb443b-d487-1a28-6d30-ee3ce4148245">
+      <Execution id="ce6ea329-0bc6-4e78-87f0-d84266ac4dbe" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.ChargeTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateCharge" />
+    </UnitTest>
+    <UnitTest name="LookupBillingInfo" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="d019bb13-703c-670e-55fa-9f242541f50d">
+      <Execution id="da460746-bc66-45ac-9eac-d89c18d6b21c" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.BillingInfoTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LookupBillingInfo" />
+    </UnitTest>
+    <UnitTest name="UpdateAccount" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="5f478640-42ae-5fec-26d8-f773afb4102b">
+      <Execution id="f965ecdb-fc88-4666-ad11-bcf6b2e3e645" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.AccountTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateAccount" />
+    </UnitTest>
+    <UnitTest name="ClearBillingInfo" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="a6307c88-6880-eff7-6b98-8cec0f77ea74">
+      <Execution id="41f7ebf5-b224-4c46-9275-a8b8e905775a" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.BillingInfoTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ClearBillingInfo" />
+    </UnitTest>
+    <UnitTest name="CloseAccount" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="839b8906-fa97-3e4a-912c-81ae53cc31d4">
+      <Execution id="5c7933cf-1e31-4fd0-9c7c-48eaec298821" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.AccountTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CloseAccount" />
+    </UnitTest>
+    <UnitTest name="FindNonExistantAccount" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="e3e106a3-a7e5-0d52-b37f-86781792e573">
+      <Execution id="63568d1e-5aed-487e-af2d-7c6c7dd9af7f" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.AccountTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindNonExistantAccount" />
+    </UnitTest>
+    <UnitTest name="UpdateBillingInfo" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="9e6ebedd-09f9-25f9-315f-752d97126c08">
+      <Execution id="3c078930-d597-478e-a7fc-89dfc072c03e" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.BillingInfoTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateBillingInfo" />
+    </UnitTest>
+    <UnitTest name="CreateAccount" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="00fdf40d-2a23-a5f4-85a5-3841337d8c48">
+      <Execution id="56028416-9d6e-45b7-903c-07c627f8ac58" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.AccountTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateAccount" />
+    </UnitTest>
+    <UnitTest name="LookupAccount" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="cbafa9f1-e281-0f55-769d-8ce4bf7d8553">
+      <Execution id="e8ac3041-5ab5-46c7-b9e2-aac3635ac00a" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.AccountTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LookupAccount" />
+    </UnitTest>
+    <UnitTest name="CloseAccount" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="e4eb6404-fb29-be97-1070-b69e8b647ace">
+      <Execution id="e9421f79-b1b0-4322-91b7-e529d7af6e0f" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.BillingInfoTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CloseAccount" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="00fdf40d-2a23-a5f4-85a5-3841337d8c48" executionId="56028416-9d6e-45b7-903c-07c627f8ac58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f478640-42ae-5fec-26d8-f773afb4102b" executionId="f965ecdb-fc88-4666-ad11-bcf6b2e3e645" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79fb443b-d487-1a28-6d30-ee3ce4148245" executionId="ce6ea329-0bc6-4e78-87f0-d84266ac4dbe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="839b8906-fa97-3e4a-912c-81ae53cc31d4" executionId="5c7933cf-1e31-4fd0-9c7c-48eaec298821" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e6ebedd-09f9-25f9-315f-752d97126c08" executionId="3c078930-d597-478e-a7fc-89dfc072c03e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6307c88-6880-eff7-6b98-8cec0f77ea74" executionId="41f7ebf5-b224-4c46-9275-a8b8e905775a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbafa9f1-e281-0f55-769d-8ce4bf7d8553" executionId="e8ac3041-5ab5-46c7-b9e2-aac3635ac00a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d019bb13-703c-670e-55fa-9f242541f50d" executionId="da460746-bc66-45ac-9eac-d89c18d6b21c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dccb6676-35d0-8168-53a2-74eabb0b5bb4" executionId="0197e350-374d-4fa3-8603-a00906661d98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3e106a3-a7e5-0d52-b37f-86781792e573" executionId="63568d1e-5aed-487e-af2d-7c6c7dd9af7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4eb6404-fb29-be97-1070-b69e8b647ace" executionId="e9421f79-b1b0-4322-91b7-e529d7af6e0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="56028416-9d6e-45b7-903c-07c627f8ac58" testId="00fdf40d-2a23-a5f4-85a5-3841337d8c48" testName="CreateAccount" computerName="HAL" duration="00:00:01.7354598" startTime="2012-04-29T11:03:03.6559829+01:00" endTime="2012-04-29T11:03:05.6410964+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56028416-9d6e-45b7-903c-07c627f8ac58">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f965ecdb-fc88-4666-ad11-bcf6b2e3e645" testId="5f478640-42ae-5fec-26d8-f773afb4102b" testName="UpdateAccount" computerName="HAL" duration="00:00:02.4353528" startTime="2012-04-29T11:03:05.6460967+01:00" endTime="2012-04-29T11:03:08.0842362+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f965ecdb-fc88-4666-ad11-bcf6b2e3e645">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+Recurly: Requesting PUT https://api.recurly.com/accounts/649-acct
+Recurly: Requesting GET https://api.recurly.com/accounts/649-acct
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ce6ea329-0bc6-4e78-87f0-d84266ac4dbe" testId="79fb443b-d487-1a28-6d30-ee3ce4148245" testName="CreateCharge" computerName="HAL" duration="00:00:01.7567747" startTime="2012-04-29T11:03:08.0892364+01:00" endTime="2012-04-29T11:03:09.8493371+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce6ea329-0bc6-4e78-87f0-d84266ac4dbe">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+Recurly: Requesting POST https://api.recurly.com/accounts/92-acct/charges
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5c7933cf-1e31-4fd0-9c7c-48eaec298821" testId="839b8906-fa97-3e4a-912c-81ae53cc31d4" testName="CloseAccount" computerName="HAL" duration="00:00:01.1140637" startTime="2012-04-29T11:03:09.8543374+01:00" endTime="2012-04-29T11:03:10.9684011+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c7933cf-1e31-4fd0-9c7c-48eaec298821">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+Recurly: Requesting DELETE https://api.recurly.com/accounts/856-acct
+</DebugTrace>
+        <ErrorInfo>
+          <Message>User aborted test run.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3c078930-d597-478e-a7fc-89dfc072c03e" testId="9e6ebedd-09f9-25f9-315f-752d97126c08" testName="UpdateBillingInfo" computerName="HAL" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c078930-d597-478e-a7fc-89dfc072c03e">
+    </UnitTestResult>
+    <UnitTestResult executionId="41f7ebf5-b224-4c46-9275-a8b8e905775a" testId="a6307c88-6880-eff7-6b98-8cec0f77ea74" testName="ClearBillingInfo" computerName="HAL" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41f7ebf5-b224-4c46-9275-a8b8e905775a">
+    </UnitTestResult>
+    <UnitTestResult executionId="e8ac3041-5ab5-46c7-b9e2-aac3635ac00a" testId="cbafa9f1-e281-0f55-769d-8ce4bf7d8553" testName="LookupAccount" computerName="HAL" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8ac3041-5ab5-46c7-b9e2-aac3635ac00a">
+    </UnitTestResult>
+    <UnitTestResult executionId="da460746-bc66-45ac-9eac-d89c18d6b21c" testId="d019bb13-703c-670e-55fa-9f242541f50d" testName="LookupBillingInfo" computerName="HAL" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da460746-bc66-45ac-9eac-d89c18d6b21c">
+    </UnitTestResult>
+    <UnitTestResult executionId="0197e350-374d-4fa3-8603-a00906661d98" testId="dccb6676-35d0-8168-53a2-74eabb0b5bb4" testName="LookupMissingInfo" computerName="HAL" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0197e350-374d-4fa3-8603-a00906661d98">
+    </UnitTestResult>
+    <UnitTestResult executionId="63568d1e-5aed-487e-af2d-7c6c7dd9af7f" testId="e3e106a3-a7e5-0d52-b37f-86781792e573" testName="FindNonExistantAccount" computerName="HAL" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63568d1e-5aed-487e-af2d-7c6c7dd9af7f">
+    </UnitTestResult>
+    <UnitTestResult executionId="e9421f79-b1b0-4322-91b7-e529d7af6e0f" testId="e4eb6404-fb29-be97-1070-b69e8b647ace" testName="CloseAccount" computerName="HAL" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9421f79-b1b0-4322-91b7-e529d7af6e0f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

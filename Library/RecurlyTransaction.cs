@@ -8,16 +8,16 @@ namespace Recurly
 {
     public class RecurlyTransaction
     {
-        public string Id { get; private set; }
-        public int AmountInCents { get; private set; }
-        public DateTime Date { get; private set; }
-        public string Message { get; private set; }
-        public string Status { get; private set; }
-        public bool Success { get; private set; }
-        public bool Voidable { get; private set; }
-        public bool Refundable { get; private set; }
-        public TransactionType Type { get; private set; }
-
+        public string Id { get; set; }
+        public int AmountInCents { get; set; }
+        public DateTime Date { get; set; }
+        public string Message { get; set; }
+        public string Status { get; set; }
+        public bool Success { get; set; }
+        public bool Voidable { get; set; }
+        public bool Refundable { get; set; }
+        public TransactionType Type { get; set; }
+        public string Currency { get; set; }
         public enum TransactionType : short
         {
             Unknown = 0,

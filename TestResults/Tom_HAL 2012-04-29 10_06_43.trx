@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e8e27286-b871-49e9-8566-e0b40b8226ca" name="Tom@HAL 2012-04-29 10:06:43" runUser="Hal\Tom" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="feab0091-aeb5-4294-8a78-86a43346a953">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Tom_HAL 2012-04-29 10_06_43">
+      <DeploymentItem filename="C:\dev\recurly-client-net\Library\bin\Debug\Recurly.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-29T10:06:43.9038570+01:00" queuing="2012-04-29T10:06:43.9368589+01:00" start="2012-04-29T10:06:43.9468589+01:00" finish="2012-04-29T10:06:47.2919989+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LookupBillingInfo" storage="c:\dev\recurly-client-net\test\bin\debug\recurly.test.dll" id="d019bb13-703c-670e-55fa-9f242541f50d">
+      <Execution id="c86c28b5-4505-4013-a155-7df2d5d5f946" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Test/bin/Debug/Recurly.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.Test.BillingInfoTest, Recurly.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LookupBillingInfo" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d019bb13-703c-670e-55fa-9f242541f50d" executionId="c86c28b5-4505-4013-a155-7df2d5d5f946" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c86c28b5-4505-4013-a155-7df2d5d5f946" testId="d019bb13-703c-670e-55fa-9f242541f50d" testName="LookupBillingInfo" computerName="HAL" duration="00:00:03.0039748" startTime="2012-04-29T10:06:44.0468591+01:00" endTime="2012-04-29T10:06:47.2609971+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c86c28b5-4505-4013-a155-7df2d5d5f946">
+      <Output>
+        <DebugTrace>Recurly: Requesting POST https://api.recurly.com/accounts/
+Recurly: Requesting PUT https://api.recurly.com/accounts/256-acct/billing_info
+Recurly Client Library: Recording IP Address is strongly recommended.
+Recurly: Requesting GET https://api.recurly.com/accounts/256-acct/billing_info
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at Recurly.Test.BillingInfoTest.LookupBillingInfo() in C:\dev\recurly-client-net\Test\BillingInfoTest.cs:line 34
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b009a175-47fd-4bff-99e5-0dd008b08dc3" name="Tom@HAL 2012-04-29 11:03:38" runUser="Hal\Tom" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="feab0091-aeb5-4294-8a78-86a43346a953">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Tom_HAL 2012-04-29 11_03_38">
+      <DeploymentItem filename="C:\dev\recurly-client-net\Recurly.js\bin\Debug\Recurly.js.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-29T11:03:38.4237244+01:00" queuing="2012-04-29T11:03:38.5807334+01:00" start="2012-04-29T11:03:38.5927340+01:00" finish="2012-04-29T11:03:38.9087521+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Sign_Transaction" storage="c:\dev\recurly-client-net\recurly.js.test\bin\debug\recurly.js.test.dll" id="8822bc8f-e5a5-a0ad-12ae-f3fcc06d6c56">
+      <Execution id="07191b2c-86b9-4ba7-8ced-215edcacd8a7" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Recurly.js.Test/bin/Debug/Recurly.js.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.js.Test.UnitTest1, Recurly.js.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Sign_Transaction" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8822bc8f-e5a5-a0ad-12ae-f3fcc06d6c56" executionId="07191b2c-86b9-4ba7-8ced-215edcacd8a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="07191b2c-86b9-4ba7-8ced-215edcacd8a7" testId="8822bc8f-e5a5-a0ad-12ae-f3fcc06d6c56" testName="Sign_Transaction" computerName="HAL" duration="00:00:00.0478546" startTime="2012-04-29T11:03:38.6127352+01:00" endTime="2012-04-29T11:03:38.8807505+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07191b2c-86b9-4ba7-8ced-215edcacd8a7">
+      <Output>
+        <StdOut>faa4a7d99770ac513fcfad6359558205481fe287|nonce=23b5b7d2-5033-463d-8251-75c682c11f36&amp;transaction%5bamount_in_cents%5d=124&amp;transaction%5bcurrency%5d=GBP&amp;transaction%5bdescription%5d=test+descriptiontimestamp=1335693818.83075</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
