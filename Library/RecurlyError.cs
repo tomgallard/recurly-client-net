@@ -57,7 +57,7 @@ namespace Recurly
                 return this.Message;
         }
 
-        internal static RecurlyError[] ReadResponseAndParseErrors(HttpWebResponse response)
+        public static RecurlyError[] ReadResponseAndParseErrors(HttpWebResponse response)
         {
             if (response == null)
                 return new RecurlyError[0];

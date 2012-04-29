@@ -5,3 +5,5 @@ C:\dev\recurly-client-net\Recurly.js.Test\bin\Debug\Recurly.js.dll
 C:\dev\recurly-client-net\Recurly.js.Test\bin\Debug\Recurly.js.pdb
 C:\dev\recurly-client-net\Recurly.js.Test\obj\Debug\Recurly.js.Test.dll
 C:\dev\recurly-client-net\Recurly.js.Test\obj\Debug\Recurly.js.Test.pdb
+C:\dev\recurly-client-net\Recurly.js.Test\bin\Debug\RestSharp.dll
+C:\dev\recurly-client-net\Recurly.js.Test\bin\Debug\RestSharp.xml

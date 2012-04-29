@@ -4,15 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Security.Cryptography;
 using System.Security;
+using RestSharp;
 
 namespace Recurly.js
 {
     public class RecurlyJs
     {
+        private const string _baseUrl = "https://api.recurly.com/v2/";
         private readonly string _privateKey;
-        public RecurlyJs(string privateKey)
+        private readonly string _apiKey;
+        public RecurlyJs(string privateKey,string apiKey)
         {
             _privateKey = privateKey;
+            _apiKey= apiKey;
         }
         private string GenerateNonce()
         {
@@ -25,7 +29,7 @@ namespace Recurly.js
             fullStringBuilder.Append(GenerateNonce());
             fullStringBuilder.Append("&");
             fullStringBuilder.Append(valuesToSign);
-            fullStringBuilder.Append("timestamp=");
+            fullStringBuilder.Append("&timestamp=");
             fullStringBuilder.Append(DateTimeToUnixTimestamp(DateTime.UtcNow));
             string stringToSign = fullStringBuilder.ToString();
             fullStringBuilder.Insert(0,"|");
@@ -33,9 +37,9 @@ namespace Recurly.js
             return fullStringBuilder.ToString();
         }
 
-        public double DateTimeToUnixTimestamp(DateTime dateTime)
+        public long DateTimeToUnixTimestamp(DateTime dateTime)
         {
-            return (dateTime - new DateTime(1970, 1, 1).ToLocalTime()).TotalSeconds;
+            return (long)(dateTime - new DateTime(1970, 1, 1).ToLocalTime()).TotalSeconds;
         }
         public string GetHmacHash(string stringToSign)
         {
@@ -45,6 +49,27 @@ namespace Recurly.js
 
             byte[] buffer = enc.GetBytes(stringToSign);
             return BitConverter.ToString(hmac.ComputeHash(buffer)).Replace("-", "").ToLower();
+        }
+
+        public RecurlyInvoice VerifyToken(string token)
+        {
+            RestClient reqclient = new RestClient(_baseUrl);
+            RestRequest request = new RestRequest("recurly_js/result/{token}",Method.GET);
+            request.AddParameter("token",token,ParameterType.UrlSegment);
+        //    reqclient.AddDefaultHeader("Accept", "application/xml");
+            reqclient.AddDefaultHeader("Authorization", AuthorizationHeaderValue);
+            var resp = reqclient.Execute<RecurlyInvoice>(request);
+            return resp.Data;
+        }
+
+        private string AuthorizationHeaderValue
+        {
+            get
+            {
+                        return "Basic " +
+                            Convert.ToBase64String(Encoding.UTF8.GetBytes(_apiKey));
+
+            }
         }
     }
 }

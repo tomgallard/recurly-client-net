@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3a4b9b1c-ece1-40de-b69f-8765cfaeb903" name="Tom@HAL 2012-04-29 11:28:12" runUser="Hal\Tom" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="feab0091-aeb5-4294-8a78-86a43346a953">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Tom_HAL 2012-04-29 11_28_12">
+      <DeploymentItem filename="C:\dev\recurly-client-net\Recurly.js\bin\Debug\Recurly.js.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-29T11:28:12.1525998+01:00" queuing="2012-04-29T11:28:13.7466335+01:00" start="2012-04-29T11:28:13.9006423+01:00" finish="2012-04-29T11:28:40.3365024+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="HAL" outcome="Error" timestamp="2012-04-29T11:28:40.3345023+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Sign_Transaction" storage="c:\dev\recurly-client-net\recurly.js.test\bin\debug\recurly.js.test.dll" id="8f5bdf1b-15ab-bc6c-4939-b8e29dd37f70">
+      <Execution id="84402a9e-b3db-4e4f-b394-fb8ab55dcfc9" />
+      <TestMethod codeBase="C:/dev/recurly-client-net/Recurly.js.Test/bin/Debug/Recurly.js.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Recurly.js.Test.RecurlyJsTest, Recurly.js.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Sign_Transaction" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8f5bdf1b-15ab-bc6c-4939-b8e29dd37f70" executionId="84402a9e-b3db-4e4f-b394-fb8ab55dcfc9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="84402a9e-b3db-4e4f-b394-fb8ab55dcfc9" testId="8f5bdf1b-15ab-bc6c-4939-b8e29dd37f70" testName="Sign_Transaction" computerName="HAL" duration="00:00:26.2998523" startTime="2012-04-29T11:28:14.0366501+01:00" endTime="2012-04-29T11:28:40.3365024+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84402a9e-b3db-4e4f-b394-fb8ab55dcfc9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

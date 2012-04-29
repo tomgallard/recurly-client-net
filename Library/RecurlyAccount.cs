@@ -31,7 +31,7 @@ namespace Recurly
             this.AccountCode = accountCode;
         }
 
-        internal RecurlyAccount(XmlTextReader xmlReader)
+        public RecurlyAccount(XmlTextReader xmlReader)
         {
             this.ReadXml(xmlReader);
         }

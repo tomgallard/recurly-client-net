@@ -3,3 +3,7 @@ C:\dev\recurly-client-net\Recurly.js\bin\Debug\Recurly.js.dll
 C:\dev\recurly-client-net\Recurly.js\bin\Debug\Recurly.js.pdb
 C:\dev\recurly-client-net\Recurly.js\obj\Debug\Recurly.js.dll
 C:\dev\recurly-client-net\Recurly.js\obj\Debug\Recurly.js.pdb
+C:\dev\recurly-client-net\Recurly.js\bin\Debug\RestSharp.dll
+C:\dev\recurly-client-net\Recurly.js\bin\Debug\RestSharp.xml
+C:\dev\recurly-client-net\Recurly.js\bin\Debug\Recurly.dll
+C:\dev\recurly-client-net\Recurly.js\bin\Debug\Recurly.pdb

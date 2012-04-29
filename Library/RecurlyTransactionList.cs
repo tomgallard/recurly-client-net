@@ -8,7 +8,7 @@ namespace Recurly
 {
     public class RecurlyTransactionList : List<RecurlyTransaction>
     {
-        internal RecurlyTransactionList()
+        public RecurlyTransactionList()
         { }
 
         public static RecurlyTransaction[] GetTransactions(string accountCode)

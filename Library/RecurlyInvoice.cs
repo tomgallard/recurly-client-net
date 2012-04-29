@@ -17,13 +17,14 @@ namespace Recurly
 
         private const string UrlPrefix = "/invoices/";
 
-        internal RecurlyInvoice()
+        public RecurlyInvoice()
         {
             LineItems = new RecurlyLineItemList();
             Payments = new RecurlyTransactionList();
         }
 
-        internal RecurlyInvoice(XmlTextReader reader) : this()
+        public RecurlyInvoice(XmlTextReader reader)
+            : this()
         {
             ReadXml(reader);
         }

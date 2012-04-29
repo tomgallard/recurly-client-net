@@ -12,11 +12,11 @@ namespace Recurly
 
         #region Constructors
 
-        internal RecurlyCredit()
+        public RecurlyCredit()
         {
         }
 
-        internal RecurlyCredit(XmlTextReader xmlReader)
+        public RecurlyCredit(XmlTextReader xmlReader)
         {
             ReadXml(xmlReader);
         }

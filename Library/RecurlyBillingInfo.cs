@@ -51,7 +51,7 @@ namespace Recurly
             this.AccountCode = account.AccountCode;
         }
 
-        private RecurlyBillingInfo()
+        public RecurlyBillingInfo()
         {
             this.CreditCard = new RecurlyCreditCard();
         }

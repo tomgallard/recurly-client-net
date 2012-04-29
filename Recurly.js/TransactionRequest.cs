@@ -12,7 +12,7 @@ namespace Recurly.js
         GBP,
         EUR
     }
-    public class Transaction
+    public class TransactionRequest
     {
         public int AmountInCents { get; set; }
         public Currency CurrencyCode { get; set; }

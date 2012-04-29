@@ -8,7 +8,7 @@ namespace Recurly
 {
     public class RecurlyInvoiceList : List<RecurlyInvoice>
     {
-        internal RecurlyInvoiceList()
+        public RecurlyInvoiceList()
         { }
 
         private const string UrlPostfix = "/invoices";

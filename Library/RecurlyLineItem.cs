@@ -20,12 +20,12 @@ namespace Recurly
 
         #region Constructors
 
-        internal RecurlyLineItem()
+        public RecurlyLineItem()
         {
             this.Quantity = 1;
         }
 
-        internal RecurlyLineItem(XmlTextReader xmlReader)
+        public RecurlyLineItem(XmlTextReader xmlReader)
         {
             ReadXml(xmlReader);
         }

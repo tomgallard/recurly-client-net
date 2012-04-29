@@ -26,10 +26,10 @@ namespace Recurly
             Refund
         }
 
-        internal RecurlyTransaction()
+        public RecurlyTransaction()
         { }
 
-        internal RecurlyTransaction(XmlTextReader reader)
+        public RecurlyTransaction(XmlTextReader reader)
         {
             ReadXml(reader);
         }

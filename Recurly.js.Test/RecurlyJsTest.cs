@@ -17,13 +17,13 @@ namespace Recurly.js.Test
         {
             //Just checking for no errors here- not yet sure how we verify this,
             //unless we call into another way of signing and verify the two match
-            Transaction t = new Transaction()
+            TransactionRequest t = new TransactionRequest()
             {
                 AmountInCents = 124,
                 CurrencyCode = Currency.GBP,
                 Description = "test description"
             };
-            RecurlyJs signer = new RecurlyJs("testkey");
+            RecurlyJs signer = new RecurlyJs("testkey","testapi");
             var signedString = signer.SignString(t.ToSignableString());
         }
     }

@@ -11,7 +11,7 @@ namespace Recurly
     /// </summary>
     public class RecurlyLineItemList : List<RecurlyLineItem>
     {
-        internal RecurlyLineItemList()
+        public RecurlyLineItemList()
         { }
 
         public static RecurlyLineItem[] GetCharges(string accountCode)
