@@ -1,0 +1,10 @@
+C:\dev\recurly-client-net\Test\bin\Debug\Recurly.Test.dll.config
+C:\dev\recurly-client-net\Test\bin\Debug\Recurly.Test.dll
+C:\dev\recurly-client-net\Test\bin\Debug\Recurly.Test.pdb
+C:\dev\recurly-client-net\Test\bin\Debug\nunit.framework.dll
+C:\dev\recurly-client-net\Test\bin\Debug\Recurly.dll
+C:\dev\recurly-client-net\Test\bin\Debug\Recurly.pdb
+C:\dev\recurly-client-net\Test\bin\Debug\nunit.framework.xml
+C:\dev\recurly-client-net\Test\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\recurly-client-net\Test\obj\Debug\Recurly.Test.dll
+C:\dev\recurly-client-net\Test\obj\Debug\Recurly.Test.pdb
